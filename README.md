@@ -1,2 +1,2 @@
 # Vilota-Internship-Assignment
-Geometry & Visualization: 
+Geometry & Visualization: Complete
