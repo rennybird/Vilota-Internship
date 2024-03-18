@@ -299,6 +299,6 @@ dist
 .yarn/install-state.gz
 .pnp.*
 # Dataset
+*.mp4
 MyDataset/*
 !MyDataset/cam_imu/
-*.mp4
