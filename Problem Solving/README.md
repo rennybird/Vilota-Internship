@@ -1,9 +1,9 @@
 # Install Dependencies
 ## Install lib
-sudo apt-get install liblapack-dev
+'sudo apt-get install liblapack-dev
 sudo apt-get install libsuitesparse-dev libmetis-dev
 sudo apt-get install libgflags-dev
-sudo apt-get install libgoogle-glog-dev
+sudo apt-get install libgoogle-glog-dev'
 
 ## Install Ceres
 git clone https://github.com/urbste/pyTheiaSfM
