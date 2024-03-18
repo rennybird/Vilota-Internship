@@ -301,3 +301,4 @@ dist
 # Dataset
 MyDataset/*
 !MyDataset/cam_imu/
+*.mp4
