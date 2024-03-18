@@ -6,10 +6,15 @@ Install necessary library which are  'numpy', 'spatialmath-python', and 'matplot
 
 ## Expected Outcome
 The Script will open Matplot window and show 3D plot of 5 transformation
+
 Frame A (Black): Rotated using Roll-Pitch-Yaw angles.
+
 Frame B (Red): Translated and then rotated around x, y, and z axes.
+
 Frame C (Green): Similar to Frame B but constructs each transformation step by step.
+
 Frame D (Blue): Combines the transformations of Frame B and Frame C.
+
 Frame E (Cyan): Represents the inverse transformation of Frame C.
 
 # Script 2 visualizecamwireframe.py: Camera Wireframe Animation with Open3D
