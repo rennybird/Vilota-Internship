@@ -2,40 +2,40 @@
 # Usage and Outcome
 
 ## Install lib
-sudo apt-get install liblapack-dev libsuitesparse-dev libmetis-dev libgflags-dev libgoogle-glog-dev
+    sudo apt-get install liblapack-dev libsuitesparse-dev libmetis-dev libgflags-dev libgoogle-glog-dev
 
 
 ## Install Ceres 
-git clone https://github.com/urbste/pyTheiaSfM
+    git clone https://github.com/urbste/pyTheiaSfM
 
-cd pyTheiaSfM
+    cd pyTheiaSfM
 
-mkdir -p build && cd build
+    mkdir -p build && cd build
 
-cmake .. 
+    cmake .. 
 
-make -j
+    make -j
 
-sudo make install
+    sudo make install
 
 ## Install  TheiaSfM fork
-git clone https://github.com/urbste/pyTheiaSfM
+    git clone https://github.com/urbste/pyTheiaSfM
 
-mkdir -p build && cd build 
+    mkdir -p build && cd build 
 
-cmake..
+    cmake..
 
-make -j
+    make -j
 
 
 ## Build Project
-git clone https://github.com/urbste/OpenImuCameraCalibrator
+    git clone https://github.com/urbste/OpenImuCameraCalibrator
 
-mkdir -p build && cd build && cmake ..
+    mkdir -p build && cd build && cmake ..
 
-cmake..
+    cmake..
 
-make -j
+    make -j
 
 
 ## Change path to my own directory
@@ -53,8 +53,8 @@ to
 
 
 # Run
-python3 python/run_gopro_calibration.py --path_calib_dataset=MyDataset --checker_size_m=0.021 --image_downsample_factor=2 --camera_model=DIVISION_UNDISTORTION
-I change to --path_calib_dataset=MyDataset because it's where my dataset is
+    python3 python/run_gopro_calibration.py --path_calib_dataset=MyDataset --checker_size_m=0.021 --image_downsample_factor=2 --camera_model=DIVISION_UNDISTORTION
+    I change to --path_calib_dataset=MyDataset because it's where my dataset is
 
 # Question
 ## a. Camera model used for calibrating the camera
