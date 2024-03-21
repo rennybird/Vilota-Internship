@@ -1,8 +1,8 @@
 # Script 1 spatialinfo.py: 3D Transformations with Spatialmath and Matplotlib
-This script create and visualize 3D transformations using 'spatialmath' library
+This script create and visualize 3D transformations using `spatialmath` library
 
 ## Usage
-Install necessary library which are  'numpy', 'spatialmath-python', and 'matplotlib' 
+Install necessary library which are  `numpy, spatialmath-pythond, and matplotlib`
 
 ## Expected Outcome
 The Script will open Matplot window and show 3D plot of 5 transformation
