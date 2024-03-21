@@ -4,5 +4,7 @@
 
 ## Status
 Geometry & Visualization: Complete
+
 Problem Solving: Complete
+
 Analytical: Complete
