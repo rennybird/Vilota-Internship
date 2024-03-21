@@ -27,7 +27,6 @@ After calculating the distortion factor the script apply it to the normalized co
 
 Last I visualize by applying the model using quiver plot
 
-![Figure 1](Figure_1.png)
 
 ## Experiment
 I begin an experiment by adjusting the value of [fx, fy, cu, cv, k1, k2, k3, k4]
@@ -49,3 +48,12 @@ and lastly when I adjust k4 if I increse the distorion at the around the edge of
 
 By fine-tuning these parameters, I able to understand more about camera calibration to achieve the desired image representation. This experiment show the complexity of lens distortion correction, particularly for wide-angle fisheye lense.
 
+## Final Result
+![Figure 1](Figure_1.png)
+The focal lengths is same between x and y which make the fov of both x and y have the same scale 
+
+The offset principle point (cu,cv)(965,631) cause the distortion to be more offset to the left side
+
+The negative k1 value make the distortion to be a barrel distortion
+
+k2, k3, k4 provide a fine tuning around corner of the picture
