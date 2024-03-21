@@ -38,7 +38,7 @@ when I adjust cu cv the distortion will shift to the left and right of the frame
 ![Figure 2](cu.png)
 
 
-Now for radial distortion coefficients 
+### Now for radial distortion coefficients 
 
 when I adjust k1 to positive value the distortion will be barrel (outward) instead of pincushion (inward).
 ![Figure 3](out.png)
