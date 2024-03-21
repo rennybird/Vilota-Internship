@@ -15,7 +15,11 @@ First I converts pixel coordinates to a normalized space where the origin (0,0) 
     x_norm = (x - cu) / fx
     y_norm = (y - cv) / fy
 
-Then I Calculating Radial Distance
+Then I Calculating Radial Distance using
+
+    r2 = x_norm**2 + y_norm**2
+    r4 = r2**2
+    r6 = r4 * r2
 
 After that I apply distortion model bt using equation '1 + k1 * r2 + k2 * r4 + k3 * r6 + k4 * r4 * r2' based on above Radial Distance
 
