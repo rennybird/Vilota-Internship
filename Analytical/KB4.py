@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-fx, fy, cu, cv, k1, k2, k3, k4 = [622, 622, 965, 631, -0.256, -0.0015, 0.0007, -0.0002]
+fx, fy, cu, cv, k1, k2, k3, k4 = [622, 622, 865, 631, -0.256, -0.0015, 0.0007, -0.0002]
 
 def distort(x, y, fx, fy, cu, cv, k1, k2, k3, k4):
     

@@ -32,24 +32,30 @@ Last I visualize by applying the model using quiver plot
 I begin an experiment by adjusting the value of [fx, fy, cu, cv, k1, k2, k3, k4]
 
 when I decrease fx fy the field of view(fov) image will look more distort but if I increase fx fy image will look less distort because the pixels are stretched out.
+![Figure 1](fx.png)
 
 when I adjust cu cv the distortion will shift to the left and right of the frame.
+![Figure 2](cu.png)
+
 
 Now for radial distortion coefficients 
 
-when I adjust k1 to postive value  the distortion will be barrel (outward) instead of pincushion (inward). 
+when I adjust k1 to positive value the distortion will be barrel (outward) instead of pincushion (inward).
+![Figure 3](out.png)
 
 when I adjust k2 the distortion effect will be more intense or less intense
+![Figure 4](out2.png)
 
 when I adjust k3 the distortion effect strenght around outer of the frame will change
+![Figure 5](out3.png)
 
 and lastly when I adjust k4 if I increse the distorion at the around the edge of frame will go more outward and if decrease the distorion at the around the edge of frame will go more inward
-
+![Figure 6](out4.png)
 
 By fine-tuning these parameters, I able to understand more about camera calibration to achieve the desired image representation. This experiment show the complexity of lens distortion correction, particularly for wide-angle fisheye lense.
 
 ## Final Result
-![Figure 1](Figure_1.png)
+![Figure 2](Figure_1.png)
 The focal lengths is same between x and y which make the fov of both x and y have the same scale 
 
 The offset principle point (cu,cv)(965,631) cause the distortion to be more offset to the left side
