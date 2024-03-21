@@ -27,7 +27,7 @@ After calculating the distortion factor the script apply it to the normalized co
 
 Last I visualize by applying the model using quiver plot
 
-![Figure 1](figure1.png)
+![Figure 1](Figure_1.png)
 
 ## Experiment
 I begin an experiment by adjusting the value of [fx, fy, cu, cv, k1, k2, k3, k4]
